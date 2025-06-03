@@ -1,0 +1,58 @@
+實驗結果總結
+===================================
+
+--- 真實資料 測試結果 ---
+測試損失: 0.2168
+測試準確率: 0.9257
+分類報告:
+                  precision    recall  f1-score   support
+
+Non-Promoter (0)     0.9298    0.9478    0.9387      2836
+    Promoter (1)     0.9193    0.8925    0.9057      1889
+
+        accuracy                         0.9257      4725
+       macro avg     0.9245    0.9202    0.9222      4725
+    weighted avg     0.9256    0.9257    0.9255      4725
+
+混淆矩陣:
+[[2688  148]
+ [ 203 1686]]
+額外指標:
+  AUC-ROC: 0.9704
+  AUC-PR: 0.9659
+  MCC: 0.8447
+  Cohen's Kappa: 0.8445
+  Specificity (TNR): 0.9478
+  False Positive Rate (FPR): 0.0522
+  False Negative Rate (FNR): 0.1075
+
+
+===================================
+
+--- 增強資料 (真實+合成) 測試結果 ---
+測試損失: 0.2032
+測試準確率: 0.9272
+分類報告:
+                  precision    recall  f1-score   support
+
+Non-Promoter (0)     0.9314    0.9485    0.9399      2836
+    Promoter (1)     0.9205    0.8952    0.9077      1889
+
+        accuracy                         0.9272      4725
+       macro avg     0.9260    0.9219    0.9238      4725
+    weighted avg     0.9271    0.9272    0.9270      4725
+
+混淆矩陣:
+[[2690  146]
+ [ 198 1691]]
+額外指標:
+  AUC-ROC: 0.9708
+  AUC-PR: 0.9672
+  MCC: 0.8478
+  Cohen's Kappa: 0.8476
+  Specificity (TNR): 0.9485
+  False Positive Rate (FPR): 0.0515
+  False Negative Rate (FNR): 0.1048
+
+
+===================================

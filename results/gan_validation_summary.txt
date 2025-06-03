@@ -1,0 +1,13 @@
+GAN 品質驗證量化總結
+==============================
+  3-mer JSD: 0.0207
+  4-mer JSD: 0.0350
+  5-mer JSD: 0.0551
+  6-mer JSD: 0.0791
+  Real Avg GC: 0.6069
+  Synth Avg GC: 0.6012
+  Real Uniqueness Ratio: 0.9975
+  Synth Uniqueness Ratio: 1.0000
+  Real Avg Positional Entropy: 1.9562877416610718
+  Synth Avg Positional Entropy: 1.9557363986968994
+  Discriminability Score (Accuracy): 0.5000
